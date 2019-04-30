@@ -4,7 +4,7 @@
   "description": "Serverless plugin to substitute time in compiled cloudformation template",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest --env node",
+    "test": "jest --env node --coverage",
     "test:watch": "jest --env node --watch"
   },
   "author": "Jose Manuel Marron <manemarron@gmail.com>",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/manemarron/serverless-plugin-time-substitution#readme",
   "devDependencies": {
+    "eslint": "^5.16.0",
     "jest": "^24.7.1"
   }
 }
