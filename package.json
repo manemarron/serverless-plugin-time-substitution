@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-time-substitution",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serverless plugin to substitute time in compiled cloudformation template",
   "main": "lib/index.js",
   "scripts": {
