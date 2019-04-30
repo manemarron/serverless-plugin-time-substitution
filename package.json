@@ -1,0 +1,30 @@
+{
+  "name": "serverless-plugin-time-substitution",
+  "version": "1.0.0",
+  "description": "Serverless plugin to substitute time in compiled cloudformation template",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --env node",
+    "test:watch": "jest --env node --watch"
+  },
+  "author": "Jose Manuel Marron <manemarron@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manemarron/serverless-plugin-time-substitution.git"
+  },
+  "keywords": [
+    "serverless",
+    "plugin",
+    "cloudformation",
+    "time",
+    "substitution"
+  ],
+  "bugs": {
+    "url": "https://github.com/manemarron/serverless-plugin-time-substitution/issues"
+  },
+  "homepage": "https://github.com/manemarron/serverless-plugin-time-substitution#readme",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
