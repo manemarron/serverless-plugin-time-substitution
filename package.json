@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-time-substitution",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Serverless plugin to substitute time in compiled cloudformation template",
   "main": "lib/index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   "homepage": "https://github.com/manemarron/serverless-plugin-time-substitution#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
-    "jest": "^24.7.1"
+    "jest": "^24.8.0"
   }
 }
